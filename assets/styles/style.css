@@ -1,0 +1,232 @@
+@import 'fonts.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.container {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
+
+lottie-player {
+  position: absolute;
+  margin-top: 500px;
+}
+
+h1 {
+  font-size: 10vw;
+}
+
+.gmContainer {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  margin-top: 500px;
+  position: absolute;
+  width: 500px !important;
+  height: 500px !important;
+  z-index: 10;
+  background-color: #000;
+}
+
+h1 {
+  animation: move 2s linear infinite;
+  background-image: linear-gradient(to right, #522bf5, #8c75f9, #522bf5);
+  background-size: 200% auto;
+  font-family: 'GT Maru Mega';
+  font-size: 12vh;
+  font-weight: 500;
+  letter-spacing: 1px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes move {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#gradis-background {
+  z-index: 1;
+  width: 500px !important;
+  height: 500px !important;
+}
+
+#feet {
+  z-index: 3;
+  width: 500px !important;
+  height: 500px !important;
+}
+#bodyarms {
+  z-index: 4;
+  width: 500px !important;
+  height: 500px !important;
+}
+#body {
+  z-index: 4;
+  width: 500px !important;
+  height: 500px !important;
+}
+#head {
+  z-index: 6;
+  width: 500px !important;
+  height: 500px !important;
+}
+#face {
+  z-index: 7;
+  width: 500px !important;
+  height: 500px !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 374px) {
+  lottie-player {
+    margin-top: 320px;
+  }
+
+  .gmContainer {
+    margin-top: 320px;
+    width: 320px !important;
+    height: 320px !important;
+  }
+
+  #gradis-background {
+    width: 320px !important;
+    height: 320px !important;
+  }
+
+  #feet {
+    width: 320px !important;
+    height: 320px !important;
+  }
+  #bodyarms {
+    width: 320px !important;
+    height: 320px !important;
+  }
+  #body {
+    width: 320px !important;
+    height: 320px !important;
+  }
+  #head {
+    width: 320px !important;
+    height: 320px !important;
+  }
+  #face {
+    width: 320px !important;
+    height: 320px !important;
+  }
+}
+@media only screen and (min-device-width: 374px) and (max-width: 413px) {
+  lottie-player {
+    margin-top: 374px;
+  }
+
+  .gmContainer {
+    margin-top: 374px;
+    width: 374px !important;
+    height: 374px !important;
+  }
+
+  #gradis-background {
+    width: 374px !important;
+    height: 374px !important;
+  }
+
+  #feet {
+    width: 374px !important;
+    height: 374px !important;
+  }
+  #bodyarms {
+    width: 374px !important;
+    height: 374px !important;
+  }
+  #body {
+    width: 374px !important;
+    height: 374px !important;
+  }
+  #head {
+    width: 374px !important;
+    height: 374px !important;
+  }
+  #face {
+    width: 374px !important;
+    height: 374px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-width: 427px) {
+  lottie-player {
+    margin-top: 400px;
+  }
+
+  .gmContainer {
+    margin-top: 400px;
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  #gradis-background {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  #feet {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  #bodyarms {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  #body {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  #head {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  #face {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+@media only screen and (min-width: 428px) and (max-width: 499px) {
+  lottie-player {
+    margin-top: 428px;
+  }
+
+  .gmContainer {
+    margin-top: 428px;
+    width: 428px !important;
+    height: 428px !important;
+  }
+
+  #gradis-background {
+    width: 428px !important;
+    height: 428px !important;
+  }
+
+  #feet {
+    width: 428px !important;
+    height: 428px !important;
+  }
+  #bodyarms {
+    width: 428px !important;
+    height: 428px !important;
+  }
+  #body {
+    width: 428px !important;
+    height: 428px !important;
+  }
+  #head {
+    width: 428px !important;
+    height: 428px !important;
+  }
+  #face {
+    width: 428px !important;
+    height: 428px !important;
+  }
+}
